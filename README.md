@@ -13,6 +13,13 @@ A checklist of items to check, especially when inheriting a foreign network.
   - Windows 2016:
   - Linux:
   - Solaris/HP-UX/Other Unix:
+- File Servers?
+- NAS devices?
+- Is there a SAN?
+  - Fibre Channel?
+  - iSCSI?
+- Is virtualization being used?
+  - Virtual platform? (VMware/Xen/HyperV etc)
 
 ## Active Directory
 
@@ -20,10 +27,16 @@ A checklist of items to check, especially when inheriting a foreign network.
 - What is the:
   - Forest:
   - Domain(s):
+- Is the domain(s) public or private?
+  - Public: Is the domain registered to the business?
 - Are there any domain trusts configured?
 - Are there any Group Policy objects:
   - Configured?
   - Linked to OU?
+- Is there a password policy in place?
+  - Change every X days
+  - Complexity?
+  - Number of passwords remembered?
 
 ## Network
 
@@ -32,8 +45,11 @@ A checklist of items to check, especially when inheriting a foreign network.
 - Does the network have DNS redundancy?
 - What IP subnet is being used on the LAN?
 - Are there VLAN's in use?
-- Are there mutliple Layer 3 networks on a sinple Layer 3?
-- Check switch interfaces for dropped packets, CRC errors etc.
+- Are there mutliple Layer 3 networks on a single Layer 3?
+- Check switch interfaces for:
+  - Dropped packets.
+  - CRC errors.
+  - Forced speed/duplex.
 - Is there any Port Security enabled?
 - Check STP is enabled
   - Is the STP root set correctly?
@@ -44,13 +60,13 @@ A checklist of items to check, especially when inheriting a foreign network.
 - What backup software is in place?
 - Have test restoration of backup been done?
 - Are there off-site backups being made?
+- Shadow Copies enabled on file servers?
 
 ## Desktops and Laptops
 
 - How many:
   - Desktops:
   - Laptops:
-
 - What operating systems are installed?
   - Windows XP (!!):
   - Windows Vista (!!):
