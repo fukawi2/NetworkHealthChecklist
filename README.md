@@ -137,6 +137,12 @@ Check the following items:
   - Site-to-site
   - Road warrior
   - IPSec / PPTP / SSL
+- Are there SSL/TLS protections in place for:
+  - Corporate website
+  - Email retrieval (POP3/IMAP/ActiveSync)
+  - Email sending (SMTPS)
+  - Public or self-signed certificates?
+  - What are the SSLLabs test results?
 - Is there any form of NAC (eg, 802.1x)?
 
 ### Active Directory
