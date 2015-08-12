@@ -88,6 +88,13 @@ A checklist of items to check, especially when inheriting a foreign network.
 
 ## Security
 - Do users have Local Admin rights?
+- Do any users have remote access?
+  - Remote Desktop
+  - Citrix
+- Are there VPN services in place?
+  - Site-to-site
+  - Road warrior
+  - IPSec / PPTP / SSL
 - Is there any form of NAC (eg, 802.1x)?
 
 ### Active Directory
