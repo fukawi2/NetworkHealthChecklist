@@ -81,7 +81,6 @@ Check the following items:
 - Is egress traffic filtered?
 
 ### DNS
-
 - Does the network have DNS redundancy? (2 or more working DNS servers)
 - Locally authorative DNS zones:
 
