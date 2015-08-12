@@ -116,7 +116,7 @@ A checklist of items to check, especially when inheriting a foreign network.
   - Smartphones:
 
 ### Software
-- Oerating systems:
+- Operating systems:
   - Windows XP (!!):
   - Windows Vista (!!):
   - Windows 7:
