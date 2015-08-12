@@ -24,7 +24,7 @@ Check the following items:
 - free disk space
 - disk health
   - RAID health
-  - RAID level; none (!!), RAID0 (!!), RAID1, RAID5, RAID6, RAID10
+  - RAID level; none (!!), RAID0 (!!), RAID1, RAID5(!), RAID6, RAID10
 - running processes
 - memory utilization
 - pending updates
@@ -151,7 +151,9 @@ Check the following items:
   - Email sending (SMTPS)
   - Public or self-signed certificates?
   - What are the SSLLabs test results?
+- Are logs centrally stored (Splunk/Greylog/Logstash etc)?
 - Is there any form of NAC (eg, 802.1x)?
+- Auditing; are there any compliance requirements? (PCI, SOX etc)
 
 ### Active Directory
 - Do users have Domain Admin rights?
@@ -170,6 +172,7 @@ Check the following items:
   - Laptops
   - Tablets
   - Smartphones
+- Is there any MDM in place for Phones/Tablets etc?
 
 ### Software
 - Operating systems:
