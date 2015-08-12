@@ -76,14 +76,25 @@ A checklist of items to check, especially when inheriting a foreign network.
     - Is the STP root set correctly?
     - Is BPDU Guard enabled?
 
+### Wireless
+- Wireless network installed?
+- What are the SSID's?
+- Security:
+  - WEP (!!)
+  - WPA/WPA2 PSK
+  - WPA2 Enterprise
+
 ## Security
 - Do users have Local Admin rights?
+- Is there any form of NAC (eg, 802.1x)?
+
+### Active Directory
 - Do users have Domain Admin rights?
-- Are there additional domain admin accounts besides "Administrator"?
-- Are old users/computers disabled/deleted?
+- Are there additional enterprise/domain admin accounts besides "Administrator"?
+- Are old users/computers disabled/deleted from Active Directory?
 
 ## Backups
-- What backup software is in place?
+- What backup processes are in place?
 - Have test restoration of backup been done?
 - Are there off-site backups being made?
 - Shadow Copies enabled on file servers?
@@ -92,6 +103,8 @@ A checklist of items to check, especially when inheriting a foreign network.
 - How many:
   - Desktops:
   - Laptops:
+  - Tablets:
+  - Smartphones:
 - What operating systems are installed?
   - Windows XP (!!):
   - Windows Vista (!!):
@@ -99,6 +112,7 @@ A checklist of items to check, especially when inheriting a foreign network.
   - Windows 8:
   - Windows 10:
   - OS X:
+- What anti-virus protection is installed?
 - Are there any instances of Dropbox, HighTail etc?
   - If yes, is it authorized or is it Shadow IT?
 - Are there any instances of TeamViewer, LogMeIn etc?
