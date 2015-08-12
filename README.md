@@ -138,21 +138,22 @@ Check the following items:
 - Are there off-site backups being made?
 - Shadow Copies enabled on Windows file servers?
 
-## Desktops and Laptops
+## End-user Devices
 - How many:
-  - Desktops:
-  - Laptops:
-  - Tablets:
-  - Smartphones:
+  - Desktops
+  - Laptops
+  - Tablets
+  - Smartphones
 
 ### Software
 - Operating systems:
-  - Windows XP (!!):
-  - Windows Vista (!!):
-  - Windows 7:
-  - Windows 8:
-  - Windows 10:
-  - OS X:
+  - Windows XP (!!)
+  - Windows Vista (!!)
+  - Windows 7
+  - Windows 8
+  - Windows 10
+  - OS X
+  - Linux
 - Productivity software (eg Microsoft Office)?
 - Anti-virus protection?
 - Business/Industry specific applications?
