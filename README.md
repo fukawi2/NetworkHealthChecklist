@@ -84,6 +84,7 @@ A checklist of items to check, especially when inheriting a foreign network.
   - WEP (!!)
   - WPA/WPA2 PSK
   - WPA2 Enterprise
+  - Mac Filtering
 
 ## Security
 - Do users have Local Admin rights?
