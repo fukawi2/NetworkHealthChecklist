@@ -140,7 +140,7 @@ Check the following items:
 - Are there VPN services in place?
   - Site-to-site
   - Road warrior
-  - IPSec / PPTP / SSL
+  - IPSec / PPTP (!!) / SSL
 - Are there SSL/TLS protections in place for:
   - Corporate website
   - Email retrieval (POP3/IMAP/ActiveSync)
