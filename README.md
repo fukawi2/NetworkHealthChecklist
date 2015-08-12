@@ -19,6 +19,7 @@ A checklist of items to check, especially when inheriting a foreign network.
 - Is there a SAN?
   - Fibre Channel?
   - iSCSI?
+- Check disk utilization of File Servers / NAS / SAN.
 
 ## Active Directory
 - Is Active Directory installed?
