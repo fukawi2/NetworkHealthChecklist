@@ -83,3 +83,7 @@ A checklist of items to check, especially when inheriting a foreign network.
   - Windows 8:
   - Windows 10:
   - OS X:
+- Are there any instances of Dropbox, HighTail etc?
+  - If yes, is it authorized or is it Shadow IT?
+- Are there any instances of TeamViewer, LogMeIn etc?
+  - If yes, is it authorized or is it Shadow IT?
