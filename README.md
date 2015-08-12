@@ -77,7 +77,11 @@ Check the following items:
 
 ## Network
 - What IP subnet is being used on the LAN?
-- Router/Gateway IP address:
+- Router/Gateway IP address (LAN):
+- Internet Connectivity:
+  - ISP & Connection Type (ADSL, cable, fibre etc)
+  - Are there static IP Address(es)
+  - Router - hardware make/model
 - Are there VLAN's in use?
 - Are there mutliple Layer 3 networks on a single Layer 3?
 
