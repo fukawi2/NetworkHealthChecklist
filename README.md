@@ -129,7 +129,7 @@ Check the following items:
   - Make/Models
   - 802.11a/b/g/n/ac
 - Management method (individual AP's, central management etc)
-- Is covereage sufficient?
+- Is coverage sufficient?
 
 ## Security
 - Do users have Local Admin rights?
