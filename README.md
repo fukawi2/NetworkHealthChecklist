@@ -80,6 +80,7 @@ A checklist of items to check, especially when inheriting a foreign network.
 - Wireless network installed?
 - What are the SSID's?
 - Security:
+  - Open / No Security (!!)
   - WEP (!!)
   - WPA/WPA2 PSK
   - WPA2 Enterprise
