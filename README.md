@@ -1,6 +1,10 @@
 # Network Health Checklist
 A checklist of items to check, especially when inheriting a foreign network.
 
+This list is meant to be a prompt sheet for getting an overview of a network
+in order to understand and make recommendations etc. It is not a survey that
+you can get a client to complete.
+
 ## Servers
 - How many servers?
 - Is virtualization being used?
