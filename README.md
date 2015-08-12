@@ -24,6 +24,33 @@ health check. It is not a survey that you can get a client to complete.
   - Fibre Channel?
   - iSCSI?
 - Check disk utilization of File Servers / NAS / SAN.
+- Are there UPS units installed? Operational?
+
+### All Servers
+Check the following items:
+- free disk space
+- disk health
+  - RAID health
+  - RAID level; none (!!), RAID0 (!!), RAID1, RAID5, RAID6, RAID10
+- running processes
+- memory utilization
+- pending updates
+- multi-homing
+
+### Windows Servers
+Check the following items:
+- disk fragmentation
+- network file shares
+- local admin accounts
+
+### Linux Servers
+Check the following items:
+- load average
+- mountpoints (local and remote)
+- listening ports
+- logged in users
+- host firewall
+- uptime
 
 ## Active Directory
 - Is Active Directory installed?
