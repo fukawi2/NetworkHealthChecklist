@@ -44,16 +44,25 @@ A checklist of items to check, especially when inheriting a foreign network.
 - Check for rouge DHCP servers.
 - Does the network have DNS redundancy?
 - What IP subnet is being used on the LAN?
+- Router/Gateway IP address:
 - Are there VLAN's in use?
 - Are there mutliple Layer 3 networks on a single Layer 3?
-- Check switch interfaces for:
-  - Dropped packets.
-  - CRC errors.
-  - Forced speed/duplex.
-- Is there any Port Security enabled?
-- Check STP is enabled
-  - Is the STP root set correctly?
-  - Is BPDU Guard enabled?
+- How many switches are installed?
+  - Utilization (port usage) of each switch?
+- What switch topology has been installed?
+  - Star
+  - Daisy-chain
+  - Mesh
+- For managed switches:
+  - Check interfaces for:
+    - Dropped packets.
+    - CRC errors.
+    - Forced speed/duplex.
+  - Is there any Port Security enabled?
+  - Check STP is enabled
+    - Is the STP root set correctly?
+    - Is BPDU Guard enabled?
+
 
 ## Backups
 
