@@ -114,15 +114,19 @@ A checklist of items to check, especially when inheriting a foreign network.
   - Laptops:
   - Tablets:
   - Smartphones:
-- What operating systems are installed?
+
+### Software
+- Oerating systems:
   - Windows XP (!!):
   - Windows Vista (!!):
   - Windows 7:
   - Windows 8:
   - Windows 10:
   - OS X:
-- What anti-virus protection is installed?
-- Are there any instances of Dropbox, HighTail etc?
+- Productivity software (eg Microsoft Office)?
+- Anti-virus protection?
+- Business/Industry specific applications?
+- Are there any instances of Dropbox, OneDrive, Google Drive etc?
   - If yes, is it authorized or is it Shadow IT?
 - Are there any instances of TeamViewer, LogMeIn etc?
   - If yes, is it authorized or is it Shadow IT?
