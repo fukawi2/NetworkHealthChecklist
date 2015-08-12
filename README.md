@@ -37,6 +37,7 @@ A checklist of items to check, especially when inheriting a foreign network.
   - Change every X days
   - Complexity?
   - Number of passwords remembered?
+- Are there DFS namespaces being used for file shares?
 
 ## Network
 - What IP subnet is being used on the LAN?
