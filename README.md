@@ -4,6 +4,8 @@ A checklist of items to check, especially when inheriting a foreign network.
 ## Servers
 
 - How many servers?
+- Is virtualization being used?
+  - Virtual platform? (VMware/Xen/HyperV etc)
 - What operating systems are installed?
   - Windows 2003 (!!):
   - Windows 2008:
@@ -18,8 +20,6 @@ A checklist of items to check, especially when inheriting a foreign network.
 - Is there a SAN?
   - Fibre Channel?
   - iSCSI?
-- Is virtualization being used?
-  - Virtual platform? (VMware/Xen/HyperV etc)
 
 ## Active Directory
 
