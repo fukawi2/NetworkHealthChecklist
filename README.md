@@ -47,7 +47,7 @@ Check the following items:
 
 ### Website
 - Website hosting provider? (External/Internal)
-- Website deceloper(s)?
+- Website developer(s)?
 
 ### Email
 - Email hosting platform? (Google Apps, Rackspace, Self-hosted etc)
