@@ -10,7 +10,7 @@ health check. It is not a survey that you can get a client to complete.
 - Is virtualization being used?
   - Virtual platform? (VMware/Xen/HyperV etc)
 - What operating systems are installed?
-  - Windows 2003 (!!), 2008, 2008 R2, 2012, 2012 R2, 2016
+  - Windows NT4 (!!), 2003 (!!), 2008, 2008 R2, 2012, 2012 R2, 2016
   - Linux
   - Solaris/HP-UX/Other Unix
 - File Servers
