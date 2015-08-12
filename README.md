@@ -125,8 +125,11 @@ Check the following items:
   - WPA/WPA2 PSK
   - WPA2 Enterprise
   - Mac Filtering
-- Hardware: Make/Models?
+- Hardware:
+  - Make/Models
+  - 802.11a/b/g/n/ac
 - Management method (individual AP's, central management etc)
+- Is covereage sufficient?
 
 ## Security
 - Do users have Local Admin rights?
