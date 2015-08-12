@@ -89,9 +89,14 @@ Check the following items:
 - DHCP scope:
 - Check for rouge DHCP servers.
 
-### Switches:
-- How many switches are installed?
-  - Utilization (port usage) of each switch?
+### Switches
+- How many switches are installed
+  - Make/Models
+  - Utilization (port usage) of each switch
+- Speed/capabilities
+  - 10/100mbps -- Gigabit?
+  - Copper -- Fibre?
+  - SFP's or Media Converters in place?
 - Switch topology:
   - Star
   - Daisy-chain
@@ -115,6 +120,8 @@ Check the following items:
   - WPA/WPA2 PSK
   - WPA2 Enterprise
   - Mac Filtering
+- Hardware: Make/Models?
+- Management method (individual AP's, central management etc)
 
 ## Security
 - Do users have Local Admin rights?
