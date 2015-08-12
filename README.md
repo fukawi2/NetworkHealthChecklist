@@ -45,6 +45,18 @@ Check the following items:
 - host firewall
 - uptime
 
+### Website
+- Website hosting provider? (External/Internal)
+- Website deceloper(s)?
+
+### Email
+- Email hosting platform? (Google Apps, Rackspace, Self-hosted etc)
+- Self-hosted platform? (Exchange, Kerio Connect etc)
+- Server Address, Ports
+- Anti-spam and Anti-virus protection?
+- Public MX records?
+- SPF records? DKIM?
+
 ## Active Directory
 - Is Active Directory installed?
 - What is the:
