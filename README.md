@@ -110,7 +110,7 @@ you can get a client to complete.
 - What backup processes are in place?
 - Have test restoration of backup been done?
 - Are there off-site backups being made?
-- Shadow Copies enabled on file servers?
+- Shadow Copies enabled on Windows file servers?
 
 ## Desktops and Laptops
 - How many:
