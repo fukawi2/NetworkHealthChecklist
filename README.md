@@ -10,19 +10,12 @@ health check. It is not a survey that you can get a client to complete.
 - Is virtualization being used?
   - Virtual platform? (VMware/Xen/HyperV etc)
 - What operating systems are installed?
-  - Windows 2003 (!!):
-  - Windows 2008:
-  - Windows 2008 R2:
-  - Windows 2012:
-  - Windows 2012 R2:
-  - Windows 2016:
-  - Linux:
-  - Solaris/HP-UX/Other Unix:
-- File Servers?
-- NAS devices?
-- Is there a SAN?
-  - Fibre Channel?
-  - iSCSI?
+  - Windows 2003 (!!), 2008, 2008 R2, 2012, 2012 R2, 2016
+  - Linux
+  - Solaris/HP-UX/Other Unix
+- File Servers
+- NAS devices
+- Is there a SAN? Fibre Channel or iSCSI?
 - Check disk utilization of File Servers / NAS / SAN.
 - Are there UPS units installed? Operational?
 
