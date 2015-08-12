@@ -2,7 +2,6 @@
 A checklist of items to check, especially when inheriting a foreign network.
 
 ## Servers
-
 - How many servers?
 - Is virtualization being used?
   - Virtual platform? (VMware/Xen/HyperV etc)
@@ -22,15 +21,15 @@ A checklist of items to check, especially when inheriting a foreign network.
   - iSCSI?
 
 ## Active Directory
-
 - Is Active Directory installed?
 - What is the:
   - Forest:
   - Domain(s):
 - Is the domain(s) public or private?
   - Public: Is the domain registered to the business?
+- Is there any OU structure in place?
 - Are there any domain trusts configured?
-- Are there any Group Policy objects:
+- Are there any Group Policy Objects:
   - Configured?
   - Linked to OU?
 - Is there a password policy in place?
@@ -39,21 +38,33 @@ A checklist of items to check, especially when inheriting a foreign network.
   - Number of passwords remembered?
 
 ## Network
-
-- Is there a permieter firewall in place?
-- Check for rouge DHCP servers.
-- Does the network have DNS redundancy?
 - What IP subnet is being used on the LAN?
 - Router/Gateway IP address:
 - Are there VLAN's in use?
 - Are there mutliple Layer 3 networks on a single Layer 3?
+
+### Firewall
+- Is there a permieter firewall in place?
+- Is egress traffic filtered?
+
+### DNS
+
+- Does the network have DNS redundancy? (2 or more working DNS servers)
+- Locally authorative DNS zones:
+
+### DHCP
+- DHCP server:
+- DHCP scope:
+- Check for rouge DHCP servers.
+
+### Switches:
 - How many switches are installed?
   - Utilization (port usage) of each switch?
-- What switch topology has been installed?
+- Switch topology:
   - Star
   - Daisy-chain
   - Mesh
-- For managed switches:
+- Managed Switches:
   - Check interfaces for:
     - Dropped packets.
     - CRC errors.
@@ -63,16 +74,19 @@ A checklist of items to check, especially when inheriting a foreign network.
     - Is the STP root set correctly?
     - Is BPDU Guard enabled?
 
+## Security
+- Do users have Local Admin rights?
+- Do users have Domain Admin rights?
+- Are there additional domain admin accounts besides "Administrator"?
+- Are old users/computers disabled/deleted?
 
 ## Backups
-
 - What backup software is in place?
 - Have test restoration of backup been done?
 - Are there off-site backups being made?
 - Shadow Copies enabled on file servers?
 
 ## Desktops and Laptops
-
 - How many:
   - Desktops:
   - Laptops:
