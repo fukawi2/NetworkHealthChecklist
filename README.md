@@ -135,6 +135,7 @@ Check the following items:
   - 802.11a/b/g/n/ac
 - Management method (individual AP's, central management etc)
 - Is coverage sufficient?
+- Check for Rogue Access Points (on or off SSID)
 - Check channel spacing with surrounding SSID's
 
 ## Security
