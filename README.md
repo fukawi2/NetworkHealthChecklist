@@ -84,7 +84,7 @@ Check the following items:
   - Are there static IP Address(es)
   - Router - hardware make/model
 - Are there VLAN's in use?
-- Are there mutliple Layer 3 networks on a single Layer 3?
+- Are there mutliple Layer 3 networks on a single Layer 2?
 
 ### Firewall
 - Is there a permieter firewall in place?
