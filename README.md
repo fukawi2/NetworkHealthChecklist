@@ -38,6 +38,7 @@ Check the following items:
 
 ### Linux Servers
 Check the following items:
+- distribution and release
 - load average
 - mountpoints (local and remote)
 - listening ports
