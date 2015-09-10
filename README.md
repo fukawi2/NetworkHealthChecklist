@@ -66,6 +66,11 @@ Check the following items:
 - Is the domain(s) public or private?
   - Public: Is the domain registered to the business?
 - Is there any OU structure in place?
+- How many Domain Controllers are there?
+  - Is there at least 1 physical Domain Controller?
+  - What is the state of replication? (`repadmin /showrepl * /errorsonly`)
+- What roles are installed on what servers? (eg, DC, DHCP, DNS, Print Server, File Server)
+- Where are the FSMO roles held? (`netdom query /domain:<DOMAIN> FSMO`)
 - Are there any domain trusts configured?
 - Are there any Group Policy Objects:
   - Configured?
