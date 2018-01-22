@@ -177,6 +177,11 @@ Check the following items:
 - Are logs centrally stored (Splunk/Greylog/Logstash etc)?
 - Is there any form of NAC (eg, 802.1x)?
 - Auditing; are there any compliance requirements? (PCI, SOX etc)
+- Have patches for major vulnerabilities been applied to: Servers? Desktops? Others?
+  - Meltdown
+  - Spectre
+  - Heartbleed
+  - Shellshock
 
 ### Active Directory
 - Do users have Domain Admin rights?
