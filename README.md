@@ -90,6 +90,8 @@ Check the following items:
   - Router - hardware make/model
 - Are there VLAN's in use?
 - Are there mutliple Layer 3 networks on a single Layer 2?
+- Any internal routers in-use to segregate internal networks/subnets?
+  - See *Routing* Section
 
 ### Firewall
 - Is there a permieter firewall in place?
@@ -103,6 +105,16 @@ Check the following items:
 - DHCP server:
 - DHCP scope:
 - Check for rouge DHCP servers.
+
+### Routing
+- How many routers are installed?
+  - Make/Models
+  - Any configured in High Availability (HA)?
+  - Are they edge or internal routers?
+- Is there firewalling between internal subnets?
+- Interfaces
+  - Names (system and friendly names)
+  - Capabilities (Speed, Media etc)
 
 ### Switches
 - How many switches are installed
