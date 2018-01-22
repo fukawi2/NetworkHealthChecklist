@@ -137,6 +137,10 @@ Check the following items:
   - Check STP is enabled
     - Is the STP root set correctly?
     - Is BPDU Guard enabled?
+- Uplink Design:
+  - Single port uplinks between switches?
+  - LACP/LAGG uplinks?
+  - Redundant Paths?
 
 ### Wireless
 - Wireless network installed?
