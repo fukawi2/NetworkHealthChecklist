@@ -10,7 +10,7 @@ health check. It is not a survey that you can get a client to complete.
 - Is virtualization being used?
   - Virtual platform? (VMware/Xen/HyperV etc)
 - What operating systems are installed?
-  - Windows NT4 (!!), 2003 (!!), 2008, 2008 R2, 2012, 2012 R2, 2016
+  - Windows NT4 (!!), 2003 (!!), 2008 (!!), 2008 R2 (!!), 2012, 2012 R2, 2016
   - Linux
   - Solaris/HP-UX/Other Unix
 - File Servers
@@ -24,7 +24,7 @@ Check the following items:
 - free disk space
 - disk health
   - RAID health
-  - RAID level; none (!!), RAID0 (!!), RAID1, RAID5(!), RAID6, RAID10
+  - RAID level; none (!!), RAID0 (!!), RAID1, RAID5(!), RAID6, RAID10, ZFS
 - running processes
 - memory utilization
 - pending updates
@@ -49,6 +49,9 @@ Check the following items:
 ### Website
 - Website hosting provider? (External/Internal)
 - Website developer(s)?
+- Deployment stack?
+  - Web Server
+  - Database - Scheduled Backups?
 
 ### Email
 - Email hosting platform? (Google Apps, Rackspace, Self-hosted etc)
@@ -89,7 +92,7 @@ Check the following items:
   - Are there static IP Address(es)
   - Router - hardware make/model
 - Are there VLAN's in use?
-- Are there mutliple Layer 3 networks on a single Layer 2?
+- Are there multiple Layer 3 networks on a single Layer 2?
 - Any internal routers in-use to segregate internal networks/subnets?
   - See *Routing* Section
 
@@ -137,6 +140,7 @@ Check the following items:
   - Check STP is enabled
     - Is the STP root set correctly?
     - Is BPDU Guard enabled?
+  - DHCP Snooping - Enabled? Required?
 - Uplink Design:
   - Single port uplinks between switches?
   - LACP/LAGG uplinks?
@@ -149,7 +153,7 @@ Check the following items:
   - Open / No Security (!!)
   - WEP (!!)
   - WPA/WPA2 PSK
-  - WPA2 Enterprise
+  - WPA2 Enterprise (802.1x)
   - Mac Filtering
 - Hardware:
   - Make/Models
@@ -206,7 +210,7 @@ Check the following items:
 - Operating systems:
   - Windows XP (!!)
   - Windows Vista (!!)
-  - Windows 7
+  - Windows 7 (!!)
   - Windows 8
   - Windows 10
   - OS X
